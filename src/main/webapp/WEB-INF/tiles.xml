@@ -1,0 +1,13 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="Layout" template="Layout">
+        <put-attribute name="footer" value="Footer :: body" />
+    </definition>
+
+    <definition name="Landing" extends="Layout">
+        <put-attribute name="body" value="Landing :: body" />
+    </definition>
+
+</tiles-definitions>

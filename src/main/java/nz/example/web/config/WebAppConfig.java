@@ -18,9 +18,7 @@ public class WebAppConfig {
 
     @Bean
     public ThymeleafTilesConfigurer thymeleafTilesConfigurer() {
-
-        final ThymeleafTilesConfigurer configurer = new ThymeleafTilesConfigurer();
-        return configurer;
+        return new ThymeleafTilesConfigurer();
     }
 
     @Bean

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class LandingController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String register(Model model) {
+    public String register(final Model model) {
 
         model.addAttribute("body", "Landing page body");
         model.addAttribute("footer", "Footer body");

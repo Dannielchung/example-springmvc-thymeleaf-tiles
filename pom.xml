@@ -4,11 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nz.example.springmvc-thymeleaf-tiles</groupId>
     <artifactId>example.springmvc-thymeleaf-tiles</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
         <spring.version>3.2.4.RELEASE</spring.version>
         <thymeleaf.version>2.0.19</thymeleaf.version>
         <thymeleaf-tiles.vesion>2.0.0</thymeleaf-tiles.vesion>

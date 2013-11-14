@@ -11,7 +11,7 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>nz.example.web.config.ModelConfig</param-value>
+        <param-value>nz.example.stt.model.config.ModelConfig</param-value>
     </context-param>
 
     <filter>
@@ -47,7 +47,7 @@
         </init-param>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>nz.example.web.config.WebAppConfig</param-value>
+            <param-value>nz.example.stt.webapp.config.WebAppConfig</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

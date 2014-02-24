@@ -3,5 +3,5 @@
 .project
 target
 
-example.springmvc-thymeleaf-tiles.iml
+springmvc-thymeleaf-tiles.iml
 .idea

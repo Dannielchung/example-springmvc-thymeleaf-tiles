@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>nz.example.springmvc-thymeleaf-tiles</groupId>
-    <artifactId>example.springmvc-thymeleaf-tiles</artifactId>
+    <artifactId>springmvc-thymeleaf-tiles</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -16,7 +16,7 @@
         <thymeleaf-tiles.vesion>2.0.0</thymeleaf-tiles.vesion>
         <jstl.version>1.1.0</jstl.version>
         <slf4j.version>1.7.5</slf4j.version>
-        <jetty.version>9.1.0.RC1</jetty.version>
+        <tomcat7-plugin.version>2.2</tomcat7-plugin.version>
     </properties>
 
     <build>
@@ -31,9 +31,12 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>${jetty.version}</version>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>${tomcat7-plugin.version}</version>
+                <configuration>
+                    <path>/</path>
+                </configuration>
             </plugin>
         </plugins>
     </build>
